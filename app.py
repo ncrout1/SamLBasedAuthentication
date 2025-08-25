@@ -61,6 +61,7 @@ def saml_acs():
     auth = init_saml_auth(req)
     auth.process_response()
     errors = auth.get_errors()
+    print(errors)
     if not errors:
         session['saml_user_data'] = auth.get_attributes()
         session['saml_nameid'] = auth.get_nameid()
@@ -83,4 +84,5 @@ def metadata():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
