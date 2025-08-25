@@ -92,9 +92,8 @@ def metadata():
     metadata = auth.get_settings().get_sp_metadata()
     return make_response(metadata, 200, {'Content-Type': 'text/xml'})
 
-if __name__ == '__main__':
-   port = int(os.environ["PORT"])  # no fallback to 8000
-   app.run(host='0.0.0.0', port=port)
+
+
 
 
 
