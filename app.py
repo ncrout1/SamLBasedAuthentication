@@ -64,8 +64,8 @@ def saml_acs():
     if not errors:
         session['saml_user_data'] = auth.get_attributes()
         session['saml_nameid'] = auth.get_nameid()
-        # return f"✅ Logged in as: {session['saml_nameid']}<br><br>Attributes:<br>{session['saml_user_data']}"
-        return redirect(url_for('welcome'))
+        return f"✅ Logged in as: {session['saml_nameid']}<br><br>Attributes:<br>{session['saml_user_data']}"
+        # return redirect(url_for('welcome'))
     else:
         return f"❌ SAML Error: {errors}"
     
@@ -83,3 +83,4 @@ def metadata():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
