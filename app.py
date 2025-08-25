@@ -14,9 +14,19 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 app = Flask(__name__)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
+
 app.secret_key = os.urandom(24)
+app.config['SESSION_COOKIE_SECURE'] = True
+@app.before_request
+def enforce_https():
+    if not request.is_secure:
+        url = request.url.replace("http://", "https://", 1)
+        return redirect(url, code=301)
+
 
 def prepare_flask_request(request):
     return {
@@ -85,6 +95,7 @@ def metadata():
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8000))
     app.run(host='0.0.0.0', port=port, debug=True)
+
 
 
 
