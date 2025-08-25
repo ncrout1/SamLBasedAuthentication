@@ -2,13 +2,13 @@
   "strict": true,
   "debug": true,
   "sp": {
-    "entityId": "http://samlbasedauthentication-gbaacaenfmdvczeg.centralindia-01.azurewebsites.net/metadata/",
+    "entityId": "https://samlbasedauthentication-gbaacaenfmdvczeg.centralindia-01.azurewebsites.net/metadata/",
     "assertionConsumerService": {
-      "url": "http://samlbasedauthentication-gbaacaenfmdvczeg.centralindia-01.azurewebsites.net/saml/acs",
+      "url": "https://samlbasedauthentication-gbaacaenfmdvczeg.centralindia-01.azurewebsites.net/saml/acs",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     },
     "singleLogoutService": {
-      "url": "http://samlbasedauthentication-gbaacaenfmdvczeg.centralindia-01.azurewebsites.net/saml/sls",
+      "url": "https://samlbasedauthentication-gbaacaenfmdvczeg.centralindia-01.azurewebsites.net/saml/sls",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     },
     "x509cert": "",
@@ -24,3 +24,4 @@
     "x509cert": "-----BEGIN CERTIFICATE-----MIIC8DCCAdigAwIBAgIQPGOZuSqtS5NJDEFA4kfMwTANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yNTA4MjExMzA0MDBaFw0yODA4MjExMzAzNTlaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsTuKMwne6lMUlrj/3GqGZ8jRgNw44WH5JO7gpVchJsbD4woNdiWD8+cOZUOlEsXUA9hWIhzBIk4N4SBhJjgqEAQg8Bb0oOj7h1m7dntLYDVsi4g882B39MRmcKbdsDlC79cxLYidX1CKkEVI/jvZyGrNMy/zxcPRIRYskTjv8ddKA8nCxwiM5Z+nmqgPbCm9KgSjOj8VAQ1BGi4UFdOGIwLR9CBXyBVsfuGt4nzBsRFrHecf1Q0MFAnTRegC17BYSD3O3D5wh59Xjn9IwQaoBGhhTPJW5i9pVJayncWsG8q8P5OQXsN+587rJB/NY6Xa7Ug3VynnXIE+5PMfMA4xMQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAII+M2asXAWZ5vbEl9y9gjE+ihzfhK05IzfRgJjvxPxE4V6scDhjhexiDMxQ6yss59mUewJuQ+CFBtxBrE/7hqIUjDONipBzi9yVFnD+dSF9GirAwVeTgpYGJtBxI9TuCnpkxiFMFgQbCS2VmoRdHwdeJPuSKVXLeIYwkr+Bk8RAzShRqs/6Sf3ewOMUhNKhfd4vs67IqWniN7j/BoSL4MeZMcbxaSkK3rIeKH5l/XdVGNMWTg0QwI5kiOC8nXELxDPANftS0O3g3GSdD1W9LCJdTkDQF0ciJBjt+LTB+0LuP7lcjrDEzIyq6LAmKoa4r6LUBM35VOb7NK8YVXowDd-----END CERTIFICATE-----"
   }
 }
+
