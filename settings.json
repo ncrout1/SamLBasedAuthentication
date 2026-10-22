@@ -15,9 +15,9 @@
     "privateKey": ""
   },
   "idp": {
-    "entityId": "https://sts.windows.net/385cda71-960d-468d-a44a-23f63fa600fa/",
+    "entityId": "https://sts.windows.net/540985af-4083-44b5-9f4c-5fa3a9b02853/",
     "singleSignOnService": {
-      "url": "https://login.microsoftonline.com/385cda71-960d-468d-a44a-23f63fa600fa/saml2",
+      "url": "https://login.microsoftonline.com/540985af-4083-44b5-9f4c-5fa3a9b02853/saml2",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     },
     "x509cert": "-----BEGIN CERTIFICATE-----\nMIIC8DCCAdigAwIBAgIQNK0YtQNiLYxA0Y+/FtNRCDANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yNjEwMjIwNjEwMzhaFw0yOTEwMjIwNjEwMzhaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv/C9LMG2drxQOG9PCtXFhASgNu2XTPLmr2x8J8JPn0sgDCjtBc650bmG4EmSV7gJRx5jeTs3UzrgAfcXdsueH/LGbAdz8QDaYZW9PmWg+pbQ6k/Au+Bg1IxTxJeZBnsVtht/UwJ1I4PECdll95H1gmnN5gCrFYWbYCSepLQjQEufW+UhqA2JE/yHuLCaR3NFrXOvB6ZxHPHIoIcGemOg9YieQZNYAtXr7NOHw9kDqXRJd7Q70meids52TgCi3PtHamARuC18dmm7wFbEmMSXEKrkFBdOwnn3fCNgP0yI2t139XKp7gLRctfJTdDn0akQJQRY12IvcJw4LTKeIIPZpQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAGrdKSWWo87BugpKv3YgT2678kCMv2PdQ5oPS/DsvdUIGScI8T2VUhAiA+XYxIgxJ3LZUK2cWKj0M33ySGa8zmAsFGpZ2CF2qbAacSQbCb9P29p6WVLftBhusyv2hUA1Vd5f1tz8JSvbds8CG+jVV3PbXMd/pPpEGW5ZcATFGwwP18UyZilIhwxw1VzSijOz2uNn5Xo7Hn9TFuLAqODNujFcGWEhR3trXCuESu75f/+8i9VdhuEzVUrjNYl/PQTlJHp+BeAgvvxRULFZa1gsbLzs5lyVHU/RoSy3uTqwJqcBiN+SeOMLq1pcCdxJ7O3cLRWiRASfbXBjGA8wNdsCGZ\n-----END CERTIFICATE-----"
