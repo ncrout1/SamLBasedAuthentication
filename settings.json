@@ -2,13 +2,13 @@
   "strict": true,
   "debug": true,
   "sp": {
-    "entityId": "https://testingpurpose-gchnbcavfvf6bqb9.indiasouthcentral-01.azurewebsites.net/metadata/",
+    "entityId": "https://learningnarsingh-auggbecdcscaf0hy.centralindia-01.azurewebsites.net/metadata/",
     "assertionConsumerService": {
-      "url": "https://testingpurpose-gchnbcavfvf6bqb9.indiasouthcentral-01.azurewebsites.net/saml/acs",
+      "url": "https://learningnarsingh-auggbecdcscaf0hy.centralindia-01.azurewebsites.net/saml/acs",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     },
     "singleLogoutService": {
-      "url": "https://testingpurpose-gchnbcavfvf6bqb9.indiasouthcentral-01.azurewebsites.net/saml/sls",
+      "url": "https://learningnarsingh-auggbecdcscaf0hy.centralindia-01.azurewebsites.net/saml/sls",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     },
     "x509cert": "",
